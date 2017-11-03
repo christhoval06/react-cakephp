@@ -39,10 +39,7 @@ class RestController extends Controller {
 
     'shell-task' => 'ShellTask',
     'app-setting' => 'AppSetting',
-    'municipality' => 'Municipality',
-
-    'deal-category' => 'DealCategory',
-    'deal' => 'Deal'
+    'municipality' => 'Municipality'
   );
 
   public $roles = array(

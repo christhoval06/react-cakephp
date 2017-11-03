@@ -2,7 +2,7 @@
 
 Below you can see how to bootstrap a project using ReactJS and CakePHP 2.8.
 ```bash
-git clone https://RoBYCoNTe@bitbucket.org/RoBYCoNTe/react-cakephp.git <ProjectName>
+git clone https://github.com/RoBYCoNTe/react-cakephp.git <ProjectName>
 git remote set-url origin <New Repository Path>
 git add .
 git commit -m "First commit in new repository"

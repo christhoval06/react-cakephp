@@ -1,0 +1,117 @@
+.wrapper {
+  margin-top: 50px;
+}
+.spa .page-header {
+  margin-top: 0;
+
+}
+.spa {
+  width: calc(100% - 200px)
+}
+.spa {
+  margin-left: 200px;
+}
+@media(max-width: 992px) {
+  .spa {
+    margin-left: 0;
+    width: 100%
+  }
+  .sidebar {
+    display: none
+  }
+}
+.sidebar {
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-top: 50px !important;
+  background-color: #222;
+  width: 200px;
+}
+
+.sidebar ul.nav.nav-sidebar li {
+  margin: 0;
+}
+.sidebar ul.nav.nav-sidebar li a {
+  color: #999;
+  text-decoration: none;
+  background: #252525;
+  border-top: 1px solid #373737;
+  border-bottom: 1px solid #1A1A1A;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  -o-transition: background .5s;
+  -ms-transition: background .5s;
+  transition: background .5s;
+}
+.sidebar ul.nav.nav-sidebar li a span.glyphicon {
+  float: right;
+}
+.sidebar ul.nav.nav-sidebar li a.selected,
+.sidebar ul.nav.nav-sidebar li a:hover,
+.sidebar ul.nav.nav-sidebar li a:focus,
+.sidebar ul.nav.nav-sidebar li a:active {
+  color: white !important;
+  background-color: black !important;
+  outline: 0 !important
+}
+.Select-menu-outer {
+  /* Fix problem with bottom elements like date that can overflow
+   * over visible space.
+   */
+  z-index: 3 !important
+}
+.Select.form-control {
+  padding: 0;
+  margin: 0;
+  border: 0
+}
+.has-error .Select-control {
+  border: 1px solid #a94442 !important
+}
+.CodeMirror {
+  border: 1px solid #d3d3d3 !important
+}
+
+.url-token {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-family: monospace;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 2px;
+}
+.url-token.selected,
+.url-token:hover {
+  cursor: pointer;
+  background-color: #505050;
+}
+.url-token > .glyphicon {
+  margin-right: 4px;
+}
+.btn-addon-upload {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0
+}
+@media (max-width: 767px) {
+    .table-responsive{
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+}
+@media (min-width: 767px) {
+    .table-responsive{
+        overflow: inherit !important; /* Sometimes needs !important */
+    }
+    .login {
+      margin-top: 10%;
+    }
+}

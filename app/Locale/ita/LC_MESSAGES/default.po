@@ -1,0 +1,494 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-01-02 22:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: EMAIL@ADDRESS\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: Config/bootstrap.php:116
+msgid "SafeGuard"
+msgstr ""
+
+#: Controller/RestApiController.php:153
+msgid "Account expired, traffic redirected to the safe page!"
+msgstr "Account scaduto, traffico dirottato verso la pagina sicura."
+
+#: Controller/RestApiController.php:183
+msgid "All traffic allowed for this campaign."
+msgstr "Tutto il traffico consentito per la campagna."
+
+#: Controller/RestCampaignController.php:22;43;87;119;196;219;226
+#: Controller/RestLandingController.php:20
+#: Controller/RestSubscriptionController.php:83;122
+#: Controller/RestUserController.php:133
+msgid "Not allowed."
+msgstr "Non consentito."
+
+#: Controller/RestCampaignController.php:33
+msgid "Redir configuration saved."
+msgstr ""
+
+#: Controller/RestCampaignController.php:97;129
+msgid "Campaign not found."
+msgstr "Campagna non trovata."
+
+#: Controller/RestCampaignController.php:104
+msgid "Unable to delete campaign logs."
+msgstr "Impossibile rimuovere i logs della campagna."
+
+#: Controller/RestCampaignController.php:107
+msgid "Campaign logs removed."
+msgstr "Logs della campagna rimossi."
+
+#: Controller/RestCampaignController.php:147
+msgid "Copy of %s"
+msgstr "Copia di %s"
+
+#: Controller/RestCampaignController.php:153
+msgid "Campaign cloned."
+msgstr "Campagna clonata con successo."
+
+#: Controller/RestCampaignController.php:186;191;208
+#: Controller/RestLandingController.php:14
+#: Controller/RestSubscriptionController.php:51;78;117
+#: Controller/RestUserController.php:21;98;128;162;212;253;286
+msgid "Not found."
+msgstr "Non trovato."
+
+#: Controller/RestCampaignController.php:230
+msgid "Campaign status changed."
+msgstr "Stato della campagna modificato."
+
+#: Controller/RestCampaignController.php:233
+msgid "Unable to change campaign status."
+msgstr "Impossibile cambiare lo stato della campagna."
+
+#: Controller/RestConsoleController.php:47
+msgid "active campaigns"
+msgstr "campagne attive"
+
+#: Controller/RestConsoleController.php:60
+msgid "today's views"
+msgstr "visite oggi"
+
+#: Controller/RestConsoleController.php:72
+msgid "cloaked views"
+msgstr "visite dirottate"
+
+#: Controller/RestConsoleController.php:87
+msgid "days to expiration"
+msgstr "giorni alla scadenza"
+
+#: Controller/RestConsoleController.php:89
+msgid "Buy Package"
+msgstr "Acquista Pacchetto"
+
+#: Controller/RestController.php:89
+msgid "Token invalid or expired."
+msgstr "Token invalido o scaduto."
+
+#: Controller/RestController.php:111
+msgid "Login success!"
+msgstr "Login eseguito con successo!"
+
+#: Controller/RestController.php:119
+msgid "Invalid username or password"
+msgstr "Username o password non validi."
+
+#: Controller/RestLandingController.php:25
+msgid "Section not found."
+msgstr ""
+
+#: Controller/RestLandingController.php:31
+msgid "HTML content saved."
+msgstr ""
+
+#: Controller/RestLandingController.php:34
+msgid "Error saving HTML content."
+msgstr ""
+
+#: Controller/RestSubscriptionController.php:57
+msgid "Not authorized."
+msgstr "Non autorizzato."
+
+#: Controller/RestSubscriptionController.php:61
+msgid "Package not found."
+msgstr "Pacchetto non trovato."
+
+#: Controller/RestSubscriptionController.php:139
+msgid "Account expiration extended to %s"
+msgstr "Account esteso fino al %s"
+
+#: Controller/RestSubscriptionController.php:139
+msgid "Y-m-d"
+msgstr "d-m-Y"
+
+#: Controller/RestSubscriptionController.php:185
+msgid "Invalid billing type for selected package!"
+msgstr ""
+
+#: Controller/RestSubscriptionController.php:192
+msgid "Payment confirmed, right now you are in SafeGuard community"
+msgstr "Pagamento confermato, da ora fai parte della community di SafeGuard"
+
+#: Controller/RestSubscriptionController.php:195
+msgid "Payment completed."
+msgstr "Pagamento completato. "
+
+#: Controller/RestSubscriptionController.php:231
+msgid "Recurring payment executed"
+msgstr "Pagamento ricorrente autorizzato, attivazione del profilo completata!"
+
+#: Controller/RestSubscriptionController.php:245
+msgid "Subscription profile created."
+msgstr ""
+
+#: Controller/RestUserController.php:34;102;105;108;111;172;175;178;216;298
+#: View/Elements/Landing/contact.ctp:18;23;28;33
+#: View/Elements/Landing/signup.ctp:21;28;37;46;55;62
+#: Model/AppSetting.php:validation for field key;validation value
+#: Model/CampaignRuleSet.php:validation safe_page_url;validation
+#: destination_url Model/IpRangeGroup.php:validation name;validation
+#: ip_range_category_id Model/User.php:validation username;validation
+#: password;validation email Model/UserProp.php:validation name
+msgid "Required"
+msgstr "Il campo è obbligatorio."
+
+#: Controller/RestUserController.php:43
+msgid "Username already in use"
+msgstr "Username già in uso"
+
+#: Controller/RestUserController.php:47
+msgid "Email already exists"
+msgstr "L’indirizzo email esiste già"
+
+#: Controller/RestUserController.php:74
+msgid "Welcome in SafeGuard"
+msgstr "Benvenuto in SafeGuard"
+
+#: Controller/RestUserController.php:81 View/Elements/Landing/signup.ctp:9
+msgid "Signup"
+msgstr "Registrati"
+
+#: Controller/RestUserController.php:85
+msgid ""
+"Thank you for your registration. Your subscription will be processed soon!"
+msgstr ""
+"Grazie per la tua registrazione, la tua richiesta sarà elaborata il prima "
+"possibile!"
+
+#: Controller/RestUserController.php:89
+msgid "Error during registration."
+msgstr "Errore durante la registrazione."
+
+#: Controller/RestUserController.php:119
+msgid "New contact request"
+msgstr "Nuova richiesta di contatto"
+
+#: Controller/RestUserController.php:122
+msgid "Message sent! We will contact you soon as possible!"
+msgstr "Il messaggio è stato inoltrato, ti contatteremo il prima possibile!"
+
+#: Controller/RestUserController.php:140
+msgid "Test Account Conferimed"
+msgstr "Account di prova confermato"
+
+#: Controller/RestUserController.php:141
+msgid "Account status changed to %s"
+msgstr "Stato dell’account cambiato in: %s"
+
+#: Controller/RestUserController.php:154
+msgid "Error changing user status."
+msgstr "Errore durante l’aggiornamento di stato dell’utente."
+
+#: Controller/RestUserController.php:168;259;292
+msgid "Token expired or not allowed."
+msgstr "Token scaduto o operazione non consentita. "
+
+#: Controller/RestUserController.php:185
+msgid "Confirm password does not match the new password."
+msgstr "Le password non corrispondono."
+
+#: Controller/RestUserController.php:192
+msgid "Old password does not match."
+msgstr "La vecchia password non coincide"
+
+#: Controller/RestUserController.php:196
+msgid "New password cannt be equals to old."
+msgstr "La tua nuova password non può essere uguale a quella attuale."
+
+#: Controller/RestUserController.php:202
+msgid "Password changed."
+msgstr "Password modificata."
+
+#: Controller/RestUserController.php:205
+msgid "Error changing password."
+msgstr "Errore nel cambio password."
+
+#: Controller/RestUserController.php:229
+msgid "Username or email not valid."
+msgstr "Username o indirizzo email non valido."
+
+#: Controller/RestUserController.php:239
+msgid "Password Reset"
+msgstr ""
+
+#: Controller/RestUserController.php:247
+msgid ""
+"Password changed, please check your email to view new associated password."
+msgstr ""
+"Operazione completata, ti abbiamo inoltrato la nuova password sul tuo "
+"indirizzo email."
+
+#: Controller/RestUserController.php:311
+msgid "Profile updated."
+msgstr "Informazioni di profilo aggiornate. "
+
+#: Controller/RestUserController.php:315
+msgid "Error updating profile."
+msgstr "Errore durante l’aggiornamento del profilo."
+
+#: Controller/RestUserController.php:334
+msgid "Account expiring"
+msgstr "Attenzione: il tuo account di prova sta per scadere"
+
+#: Controller/RestUserController.php:391
+msgid "Account expired"
+msgstr "Attenzione: il tuo account di prova è scaduto"
+
+#: View/Elements/Landing/contact.ctp:9
+msgid "Contact"
+msgstr ""
+
+#: View/Elements/Landing/contact.ctp:14
+msgid ""
+"Fill out the form and send us what are your questions or your doubts, we "
+"will be happy to respond as soon as possible!"
+msgstr ""
+"Compila il modulo e mandaci quelle che sono le tue domande o i tuoi dubbi, "
+"ti risponderemo il prima possibile!"
+
+#: View/Elements/Landing/contact.ctp:16 View/Elements/Landing/signup.ctp:19
+msgid "Name"
+msgstr "Nome"
+
+#: View/Elements/Landing/contact.ctp:21 View/Elements/Landing/signup.ctp:26
+msgid "Surname"
+msgstr "Cognome"
+
+#: View/Elements/Landing/contact.ctp:26 View/Elements/Landing/signup.ctp:35
+msgid "Email"
+msgstr ""
+
+#: View/Elements/Landing/contact.ctp:31
+msgid "Message"
+msgstr "Messaggio"
+
+#: View/Elements/Landing/contact.ctp:37 View/Elements/Landing/signup.ctp:68
+msgid "Reset"
+msgstr ""
+
+#: View/Elements/Landing/contact.ctp:38 View/Elements/Landing/signup.ctp:69
+msgid "Submit"
+msgstr ""
+
+#: View/Elements/Landing/signup.ctp:15
+msgid ""
+"Please fill the form below. Your registration request will be processed "
+"soon. You will receive a confirmation email"
+msgstr ""
+"Grazie per aver scelto SafeGuard! \n"
+"Compila il modulo, una volta esaminata la tua richiesta (è una procedura "
+"standard per garantire la sicurezza del sistema e di tutti gli utenti "
+"registrati) ti invieremo una mail di conferma ed il tuo account di prova "
+"GRATUITO sarà attivato. Una volta scaduti i 14 giorni di prova, il cloaker "
+"smetterà di funzionare. Per continuare ad utilizzare Safeguard basta "
+"cliccare sul banner in alto nella dashboard (anche prima del termine della "
+"prova) e scegliere una delle soluzioni tariffarie proposte."
+
+#: View/Elements/Landing/signup.ctp:44
+msgid "How did you hear about us?"
+msgstr "Come sei venuto in contatto con SafeGuard?"
+
+#: View/Elements/Landing/signup.ctp:53
+msgid "Username"
+msgstr ""
+
+#: View/Elements/Landing/signup.ctp:60
+msgid "Password"
+msgstr ""
+
+#: Model/Campaign.php:validation for field user_id;validation title;validation
+#: traffic_source_id;validation campaign_status_id
+#: Model/CampaignLogUserAgent.php:validation name
+#: Model/CampaignRedir.php:validation Model/CampaignRuleCountry.php:validation
+#: campaign_rule_set_id;validation criteria;validation country_id
+#: Model/CampaignRuleDevice.php:validation device_type_id
+#: Model/CampaignRuleIpRange.php:validation ip_range_id
+#: Model/CampaignRuleIpRangeCategory.php:validation ip_range_category_id
+#: Model/CampaignRuleIpRangeGroup.php:validation ip_range_group_id
+#: Model/CampaignRuleIpRangeGroupSet.php:validation ip_range_group_set_id
+#: Model/CampaignRuleReferer.php:validation referer
+#: Model/CampaignRuleSet.php:validation name;validation
+#: block_after_x_idle_minutes;validation active_after_x_views
+#: Model/CampaignRuleSpecificIp.php:validation start_ip;validation end_ip
+#: Model/CampaignRuleUserAgent.php:validation user_agent
+#: Model/CampaignRuleUserAgentCategory.php:validation user_agent_category_id
+#: Model/Country.php:validation code;validation Model/DeviceType.php:validation
+#: Model/IpRange.php:validation ip_range_group_id;validation start;validation
+#: end Model/IpRangeGroupSet.php:validation
+#: Model/IpRangeGroupSetItem.php:validation ip_range_group_set_id;validation
+#: Model/LandingSection.php:validation lang;validation order;validation
+#: html_content Model/Log.php:validation message
+#: Model/SubscriptionLog.php:validation
+#: Model/SubscriptionPackage.php:validation theme;validation group;validation
+#: ordinal;validation billing_type;validation billing_frequency;validation
+#: description;validation amount;validation vat
+#: Model/SubscriptionPayment.php:validation subscription_package_id;validation
+#: payout;validation status Model/SubscriptionPaymentLost.php:validation
+#: post_data Model/UserAgent.php:validation user_agent_category_id;validation
+#: pattern;validation url Model/UserAgentCategory.php:validation
+#: Model/UserProfile.php:validation type
+msgid "required"
+msgstr "Il campo è obbligatorio."
+
+#: Model/Campaign.php:validation for field is_template
+#: Model/CampaignRedir.php:validation
+msgid "Another template already exists for selected Traffic Source"
+msgstr "Esiste già un altro template per la sorgente di traffico specificata!"
+
+#: Model/LandingSection.php:validation for field lang
+msgid "Invalid language"
+msgstr ""
+
+#: Model/Log.php:validation for field type Model/SubscriptionLog.php:validation
+#: Model/UserProfile.php:validation
+msgid "inList"
+msgstr ""
+
+#: Model/SubscriptionPackage.php:validation for field billing_type
+msgid "valid"
+msgstr "Valido"
+
+#: Model/SubscriptionPackage.php:validation for field billing_period
+msgid "Please provide valid billing period"
+msgstr ""
+
+#: Model/SubscriptionPackage.php:validation for field quota_type
+msgid "Please provide valid quota type"
+msgstr ""
+
+#: Model/SubscriptionPayment.php:validation for field status
+msgid "Invalid status"
+msgstr "Stato non valido"
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr "Inserisci un ruolo valido."
+
+#: Model/User.php:validation for field status
+msgid "Please enter valid status (Pending|Active)"
+msgstr "Inserisci uno stato valido (Pending|Active)."
+
+#: Model/User.php:validation for field expiry_date
+msgid "Please insert valid date"
+msgstr "Inserisci una data valida"
+
+#: View/Errors/error400.ctp:19 View/Errors/error500.ctp:22
+msgid "Error"
+msgstr "Errore"
+
+#: View/Errors/error400.ctp:21
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:23
+msgid "An Internal Error Has Occurred."
+msgstr "Si è verificato un errore interno."
+
+#~ msgid "Last logs"
+#~ msgstr "Ultimi logs"
+
+#~ msgid "View logs"
+#~ msgstr "Visualizza logs"
+
+#~ msgid "Last cloaked views"
+#~ msgstr "Ultime visite dirottate"
+
+#~ msgid "Token still valid"
+#~ msgstr "Token valido."
+
+#~ msgid "Payment cancelled due to max failed payment retries."
+#~ msgstr ""
+#~ "Pagamento annullato: è stato raggiunto il numero massimo di tentativi per "
+#~ "la conferma della transazione."
+
+#~ msgid "Payment skipped"
+#~ msgstr "Pagamento saltato."
+
+#~ msgid "Username or password wrong."
+#~ msgstr "Username o password errata."
+
+#~ msgid "New Registration"
+#~ msgstr "Nuova registrazione"
+
+#~ msgid "We have sent you new password via email, check your email account!"
+#~ msgstr ""
+#~ "Ti abbiamo inoltrato una nuova password via email, controlla la tua "
+#~ "casella di posta!"
+
+#~ msgid "User status changed to: %s."
+#~ msgstr "Stato utente cambiato in: %s"
+
+#~ msgid "User not found."
+#~ msgstr "Utente non trovato."
+
+#~ msgid "Operation not allowed."
+#~ msgstr "Operazione non consentita."
+
+#~ msgid "Profile updated with success!"
+#~ msgstr "Informazioni di profilo aggiornate con successo!"
+
+#~ msgid "Register"
+#~ msgstr "Registrati"
+
+#~ msgid ""
+#~ "Fill the form and sent your questions to us. We will be happy to give you "
+#~ "correct answers!"
+#~ msgstr ""
+#~ "Compila il modulo ed inviaci quelle che sono le tue domande o i tuoi "
+#~ "dubbi, saremo lieti di risponderti il prima possibile!"
+
+#~ msgid "Please insert valid email address"
+#~ msgstr "Inserire un indirizzo e-mail valido"
+
+#~ msgid "Email already in use"
+#~ msgstr "Indirizzo email già in uso"
+
+#~ msgid "Thank you for your registration"
+#~ msgstr "Grazie per esserti registrato"
+
+#~ msgid "New user registered"
+#~ msgstr "Nuovo utente registrato"
+
+#~ msgid "Username or Email"
+#~ msgstr "Username o Email"
+
+#~ msgid "Address"
+#~ msgstr "Indirizzo"
+
+#~ msgid "Confirm password does not match the new password"
+#~ msgstr "La password di conferma non coincide con quella specificata"
+
+#~ msgid "Invalid account name or email"
+#~ msgstr "Nome account o indirizzo email non valido"

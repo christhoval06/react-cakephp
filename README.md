@@ -1,3 +1,5 @@
+# Setup 
+TODO
 # How it works?
 
 Below you can see how to bootstrap a project using ReactJS and CakePHP 2.8.
